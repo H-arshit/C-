@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i=10;
+    int c=i++ + i;
+    cout<<c;
+    int d=c++ + i;
+    cout<<endl<<d;
+
+  return 0;
+}
